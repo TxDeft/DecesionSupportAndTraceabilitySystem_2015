@@ -1,0 +1,30 @@
+.inputcl {
+	border: 1px solid #c5d7aa;
+	background-color: #055418;
+	height: 16px;
+}
+.text1 {
+	font-family: "ËÎÌו";
+	font-size: 12px;
+	font-weight: normal;
+	color: #c5d7aa;
+	text-decoration: none;
+}
+.link1 {
+	font-family: "ËÎÌו";
+	font-size: 12px;
+	font-weight: normal;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+	a.link1:link {color: #ffffff;}
+    a.link1:visited {color: #ffffff;}
+    a.link1:hover {color: #CCcccc;}
+    a.link1:active {color: #CCcccc;}
+.link2 {
+	font-family: "ËÎÌו";
+	font-size: 12px;
+	font-weight: normal;
+	color: #cccccc;
+	text-decoration: none;
+}

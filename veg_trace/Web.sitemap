@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="~/logined/welcome.aspx" title="welcome"  description="" >
+
+    <siteMapNode url="" title="日常记录"  description="" roles ="admin,purchaser,checker,office,producer">
+      <siteMapNode url="" title="种植管理"  description="" roles ="admin,purchaser">
+        <siteMapNode url="~/manage/landmanagment.aspx" title="地块分配"  description="" roles ="admin" />
+        <siteMapNode url="~/purchaser/plant/plantplan.aspx" title ="计划种植管理" description =""  roles ="admin,purchaser"/>
+        <siteMapNode url="~/purchaser/plant/seeding.aspx" title ="播种管理" description =""  roles ="admin,purchaser"/>
+        <siteMapNode url="~/purchaser/plant/fertilize.aspx" title ="施肥管理" description ="" roles ="admin,purchaser"/>
+        <siteMapNode url="~/purchaser/plant/irrigation.aspx" title ="灌溉管理" description =""  roles ="admin,purchaser"/>
+        <siteMapNode url="~/purchaser/plant/prevent.aspx" title ="病虫害防治管理" description ="" roles ="admin,purchaser" />
+      </siteMapNode>
+      <siteMapNode url="~/purchaser/purchase/purchase.aspx" title="采购管理"  description="" roles ="admin,purchaser"/>
+      <siteMapNode url="~/office/order.aspx" title="订单管理"  description=""  roles ="admin,office"/>
+      <siteMapNode url="~/checker/check.aspx" title="检测管理"  description=""  roles ="admin,checker"/>
+      <siteMapNode url="" title="生产管理"  description="" roles ="admin,producer">
+        <siteMapNode url ="~/producer/enter.aspx" title ="入库管理" description ="" roles ="admin,producer"/>
+        <siteMapNode url ="~/producer/produce.aspx" title ="加工管理" description ="" roles ="admin,producer"/>
+        <siteMapNode url ="~/producer/output.aspx" title ="出库管理" description ="" roles ="admin,producer"/>
+      </siteMapNode>
+    </siteMapNode>
+
+
+    <siteMapNode url="" title="基础数据"  description=""  roles ="admin" >
+      <siteMapNode url="~/manage/land.aspx" title="地块管理"  description="" roles ="admin" />
+      <siteMapNode url="~/manage/farmer.aspx" title="农户管理"  description="" roles ="admin" />
+      <siteMapNode url="~/manage/worker.aspx" title="工作人员管理"  description="" roles ="admin" />
+      <siteMapNode url="~/manage/supporter.aspx" title="供应商"  description=""  roles ="admin" />
+      <siteMapNode url="~/manage/supermarket.aspx" title="供货超市"  description=""  roles ="admin" />
+    </siteMapNode>
+
+
+    <siteMapNode url="" title="汇总信息"  description=""  roles ="admin,login,office,checker,purchaser,producer">
+      <siteMapNode url ="~/total/purchase_total.aspx" title="采购汇总"  description="" roles =""/>
+      <siteMapNode url ="~/total/land_total.aspx" title="地块汇总"  description="" roles =""/>
+      <siteMapNode url="~/total/order_total.aspx" title="订单汇总"  description="" roles =""/>
+      <siteMapNode url="~/total/check_total.aspx" title="检测汇总"  description="" roles =""/>
+      <siteMapNode url ="~/total/enter_total.aspx" title="入库信息汇总"  description="" roles =""/>
+    </siteMapNode>
+
+    <siteMapNode url ="" title ="角色和用户管理" description =""  roles ="admin">
+      <siteMapNode  url="~/role_user/role.aspx"  title ="用户管理"  description =""/>
+      <siteMapNode  url ="~/role_user/user.aspx"  title ="角色管理"  description =""/>
+    </siteMapNode>
+    <siteMapNode url="~/logined/pwd_manage.aspx" title="修改密码"  description="admin,login,office,checker,purchaser,producer"  >
+    </siteMapNode>
+
+    <siteMapNode url="~/home.aspx" title="退出系统"  description="admin,login,office,checker,purchaser,producer"  >
+    </siteMapNode>
+  </siteMapNode>
+
+</siteMap>

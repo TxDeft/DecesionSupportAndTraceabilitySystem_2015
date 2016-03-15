@@ -1,0 +1,10 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\print_lab.UserControl1.resources
+obj\Debug\print_lab.csproj.GenerateResource.Cache
+obj\Debug\print_lab.Properties.Resources.resources
+bin\Debug\print_lab.dll
+bin\Debug\print_lab.pdb
+D:\TestWebSite\test\print_lab\print_lab\bin\Debug\print_lab.tlb
+obj\Debug\print_lab.dll
+obj\Debug\print_lab.pdb
+D:\veg_trace-management\print_lab\print_lab\bin\Debug\print_lab.tlb
